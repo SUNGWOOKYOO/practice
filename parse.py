@@ -13,3 +13,6 @@ args = parser.parse_args()
 # if `$ python prog.py --verbosity 23`, then args.verbosity = 23
 if args.verbosity:
 	print("verbosity value: ", args.verbosity) 
+
+if __name__=='__main__':
+	print('this is main part')
